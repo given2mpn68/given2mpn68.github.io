@@ -1,17 +1,20 @@
+
+
+
+
+
 body {
 	background-color: black;
 	font-family: Helvetica, Arial, sans-serif
-
-}
-
-
-
 }
 
 header {
 		padding: 5px;
 		background-color: #cccccc
 }
+
+
+
 
 h3, p, title, ul, header {
 	color: #35A67C;
@@ -22,6 +25,14 @@ nav a {
 	font-style: italic;
 	margin-right: 10px;
 }
+
+a {
+	color: #35A67C;
+	text-decoration: none;
+	margin-right: 10px;
+	padding: 10px;
+}
+
 
 img {
 	height: 300px;
