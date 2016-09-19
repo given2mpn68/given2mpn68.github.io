@@ -1,0 +1,45 @@
+
+
+
+
+body {
+	background-color: black;
+	font-family: Helvetica, Arial, sans-serif
+	font-size: 1em;
+}
+
+header {
+		padding: 5px;
+		background-color: #cccccc
+}
+
+p {
+	line-height: 1.5em
+}
+
+hr {
+	border: 2px solid red;
+}
+
+h3, p, title, ul, header {
+	color: #35A67C;
+}
+
+nav a {
+	color: #35A67C;
+	font-style: italic;
+	margin-right: 10px;
+}
+
+a {
+	color: #35A67C;
+	text-decoration: none;
+	margin-right: 10px;
+	padding: 10px;
+	border-bottom: 1px solid #000;
+}
+
+
+img {
+	height: 300px;
+}
