@@ -8,17 +8,33 @@ body {
 	font-size: 1em;
 }
 
+
+.wrapper {
+	background-color: #FFE2B8;
+}
+
+
+
 .section {
 	font-family: 'PT Serif Caption';
 }
 
-
-
-
 header {
-		padding: 5px;
-		background-color: #cccccc
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
+
+.picture {
+	background-color: #FFC675;
+}
+
+
+.description {
+	background-color: #E89C6C;
+}
+
+
 
 p {
 	line-height: 1.5em
@@ -35,12 +51,14 @@ h3, p, title, ul, header {
 
 nav a {
 	color: #35A67C;
+	background-color: #E8C66A;
 	font-style: italic;
 	margin-right: 10px;
 }
 
 a {
 	color: #35A67C;
+	background-color: #E8C66A;
 	text-decoration: none;
 	margin-right: 10px;
 	padding: 10px;
@@ -51,3 +69,9 @@ a {
 img {
 	height: 300px;
 }
+
+footer {
+	background-color: #FF957E;
+}
+
+
