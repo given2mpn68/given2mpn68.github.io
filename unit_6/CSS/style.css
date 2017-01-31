@@ -103,7 +103,44 @@ img {
 }
 
 footer {
-	background-color: #FF957E;
+	background-color: #FFFFFF;
+	text-align: center;
+	border-top: 1px solid black;
+	padding: 18px 0;
+	margin-top: 40px;
+	clear: both;
+
 }
 
 
+@media only screen and (max-width: 800px) {
+    nav {
+			float: none;
+		}
+		nav a {
+			margin: 0 1.6em .75em 0;
+			padding: 10px 0;
+			float: none;
+		}
+
+		img {
+			width: 320px;
+			height: 320px;
+		}
+
+	}
+
+@media only screen and (max-width: 480px) {
+	nav {
+		display: block;
+		text-align: center;
+	}
+
+	nav a {
+		margin: 0 1em 1em;
+	}
+
+	img {
+		width: 230px;
+	}
+}
